@@ -29,14 +29,19 @@ while (True):
     IMG2=pygame.image.load("bg2.jpg")
     image_2=pygame.transform.scale(IMG2,(600, 600))
 
-    text3=font.render("I wish you a Happy birthday",True,(0,0,0))
+    text3=font.render("Happy birthday",True,(0,0,0))
 
     s.blit(image_2,(0,0))
     s.blit(text3,(0,100))
     pygame.display.update()
     time.sleep(3)
 
+    IMG3=pygame.image.load("bg3.jpg")
+    image_3=pygame.transform.scale(IMG3,(600, 600))
 
+    text4=font.render("Happy birthday",True,(0,0,0))
 
-
-
+    s.blit(image_3,(0,0))
+    s.blit(text4,(0,100))
+    pygame.display.update()
+    time.sleep(3)
